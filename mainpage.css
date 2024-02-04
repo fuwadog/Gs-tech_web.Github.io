@@ -1,0 +1,95 @@
+header {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*background image*/
+  background-image: url(https://wallpapercave.com/wp/wp7722380.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keep the background fixed */
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10%;
+  background-color: #24252a;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  padding: 9px 20px; /* Adjust padding as needed */
+  transition: color 0.3s ease;
+}
+
+.nav__links li {
+  margin-right: 20px; /* Adjust spacing between links as needed */
+}
+
+.nav__links a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.containerOftxt {
+  float: right;
+  color: white;
+  max-width: 500px;
+  margin-right: 20px;
+}
+
+#toptxt {
+  margin-top: 100px;
+}
+#middletxt {
+  margin-top: 30px;
+}
+
+#btn_txt {
+  display: inline-block;
+  margin-right: 30px;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  padding: 5px 30px;
+  transition: color 0.3s ease;
+}
+#btn_txt {
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
